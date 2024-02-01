@@ -1,0 +1,349 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #008080;
+}
+
+/* HANDBAND */
+.headband{
+    margin: 20px;
+    background-color: white;
+    border-radius: 40px;
+    position: sticky;
+    box-shadow: 6px 10px 25px rgba(0, 0, 0, 0.5); 
+}
+
+/* Style du logo */
+.logoOR{
+    width: 10%;
+    height: 10%;
+    margin-left: 15px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.logoOR:hover {
+    transform:scale(0.7);
+}
+
+/* Menu de naviguation */
+.hamburger{
+    display: none;
+}
+.nav{
+    width: 100%;
+    margin: 0 auto;
+    /*position: sticky;*/
+    top: 0px;
+}
+.menu_nav{
+    list-style-type: none;
+}
+li{
+    margin-top: 3.7%;
+    float: right;
+    width: 17%;
+    text-align: center;
+}
+.a_nav{
+    font-size: 1.6em;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.a_nav:hover{
+    color: #008080;
+    font-weight: bold;
+    transition: 0.6s;
+}
+
+/* Bandeau explication */
+.explication {
+    color: #333; 
+    background-color: #f9f9f9; 
+    border-left: 10px solid orange; 
+    padding: 10px 20px;
+    margin:  50px 50px 0px 50px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+    text-align: justify; 
+    line-height: 1.6;
+    border-radius: 5px;
+    font-size: 1.5em;
+    filter: opacity(85%);
+}
+
+/* Titre 1 */
+.titre1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 7em;
+}
+.cercle{
+    color: #008080;
+    -webkit-text-stroke: 4px;
+    -webkit-text-stroke-color: black;
+}
+.cercle:hover{
+    color: orange;
+    -webkit-text-stroke-color: orange;
+}
+
+.OLIVIARVS{
+    width: 60%;
+    height: 60%;
+    align-items: center;
+    display: block;
+    text-align: center;
+}
+
+/* Article 1 */
+.article1 {
+    display: flex;
+    align-items: center;
+    padding: 2% 25%;
+}
+.article1 .photoli {
+    width: 40%;
+    border-radius: 20%;
+    margin-right: 15%;
+}
+.article1 .poli {
+    font-size: 2em;
+    color: #fff;
+}
+
+/* Footer */
+.footer{
+    margin: 30px 20px;
+    background-color: white;
+    border-radius: 40px;
+    position: sticky;
+    display: block;
+    text-align: center;
+    filter: opacity(95%);
+    box-shadow: 6px 10px 25px rgba(0, 0, 0, 0.5); 
+}
+.logo_linkedin{
+    width: 100px;
+}
+.logo_gitlab{
+    width: 60px;
+    margin-bottom: 18px;
+}
+.copyright{
+    padding-bottom: 15px;
+}
+
+/* Page Projet IUT */
+.divArticleIUT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 20px;
+}
+.sectionArticleIUT1, .sectionArticleIUT2 {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+    width: 40%;
+    height: 40%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    opacity: 0.95;
+}
+.articleIUT1, .articleIUT2 {
+    padding: 10px;
+}
+.headerIUT1, .headerIUT2 {
+    border-bottom: 2px solid #007bff;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.titreCreaWeb, .titreInstal {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5em;
+    color: #333;
+    margin: 0;
+}
+.introArticle{
+    display: flex;
+    align-items: center;
+}
+.logotrisomie21{
+    width: 40%;
+    height: 60%;
+}
+.TexteIntro{
+    margin: 5%;
+    font-size: 22px;
+}
+
+/* Page CV */
+.videocv{
+    width: 50%;
+    height: 50%;
+    border-radius: 40px;
+    margin: 3% 25%;
+    box-shadow: 6px 6px 25px rgb(0, 0, 0, 0.5);
+}
+.petitTitrecvVideo{
+    color: #BC2001;
+    font-size: 20px;
+    margin: 3% 0 0 3%;
+}
+.titrecvvideo{
+    font: arial, sans-serif;
+    font-weight: 600;
+    margin: 0 0 0 3%;
+    font-size: 50px;
+}
+.titre2cvvideo{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    margin: 2% 0 3% 0;
+    font-weight: 600;
+}
+.cvpdf{
+    margin: 0% 13% 5% 13%;
+    border-radius: 40px;
+    box-shadow: 6px 6px 25px rgb(0, 0, 0, 0.5);
+}
+
+/* Responsive demi écran*/
+@media screen and (max-width: 768px) {
+    /* Menu de naviguation */
+    .headband{
+        margin: 20px 10px 0px 10px;
+    }
+    li{
+        width: 20%;
+    }
+    .a_nav{
+        font-size: 1em;
+    }
+    .a_nav:hover{
+        font-weight: bold;
+        transition: 0.2s;
+    }
+    /* Bandeau explication */
+    .explication {
+        font-size: 1.25em;
+    }
+    /* Titre 1 */
+    .titre1{
+        margin-top: 20px;
+        font-size: 60px;
+        font-weight: 800;
+    }
+    .cercle{
+        color: #008080;
+        -webkit-text-stroke: 2px;
+        -webkit-text-stroke-color: black;
+    }
+    .cercle:hover{
+        color: orange;
+        -webkit-text-stroke-color: orange;
+    }
+    /* Article 1 */
+    .article1 {
+        display: flex;
+        align-items: center;
+        padding: 10% 5%;
+    }
+    .photoli {
+        width: 60%;
+        height: 60%;
+        border-radius: 20%;
+        padding-bottom: 15px;
+    }
+    .article1 .poli {
+        font-size: 1.5em;
+        color: #fff;
+    }
+    /* Footer */
+    .footer{
+        margin: 20px;
+        background-color: white;
+        border-radius: 40px;
+        position: sticky;
+        display: block;
+        text-align: center;
+        filter: opacity(97%);
+    }
+    .logo_linkedin{
+        width: 10%;
+    }
+    .logo_gitlab{
+        width: 40px;
+        margin-bottom: 7px;
+    }
+
+    /* Page article IUT*/
+    .logotrisomie21{
+        width: 225px;
+        height: 100px;
+    }
+    .introArticle{
+        align-items: center;
+        display: flex;
+    }
+    .TexteIntro{
+        margin-left: 10%;
+    }
+}
+
+/* Tablette */
+@media (min-width: 768px) {
+    /* Projet IUT */
+    .divArticleIUT {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        background-color: orange;
+        border: none;
+        border-radius: 10px;
+        font-size: 25px;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+}
+
+/* Iphone */
+@media screen and (max-width: 375px) {
+    /* Footer */
+    .logo_gitlab{
+        width: 18px;
+        margin-bottom: 7px;
+    }
+}
+@media screen and (max-width: 560px) {
+    /* Footer */
+    .logo_gitlab{
+        width: 34px;
+        margin-bottom: 7px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /* Footer */
+    .logo_gitlab{
+        width: 24px;
+        margin-bottom: 7px;
+    }
+}
