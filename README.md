@@ -5,11 +5,19 @@ En s’appuyant sur le stage et les expériences afin de présenter la progressi
 Voici mon portfolio de compétence personnel.
 
 Menu identifiable, visible et explicite
+
 Information en moins de 3 clics
+
 Homogénéité des pages (pas de rupture visuelle)
+
 Contenu hiérarchisé (mise en avant des titres…)
+
 Mise en page aérée et harmonieuse, effort esthétique
+
 Orthographe, ponctuation corrects
+
 Discours adapté à l’utilisateur (pas de "terminologie BUT")
+
 Page d’accueil de présentation avec photo
- Site complet (compétences + lien Git-hub + CV + exemples )
+
+Site complet (compétences + lien Git-hub + CV + exemples )
