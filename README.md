@@ -1,9 +1,9 @@
-#My Portfolio Rives 📚
-##Projet HTML mon Portfolio 🎉
+My Portfolio Rives 📚
+Projet HTML mon Portfolio 🎉
 
 En s'appuyant sur le stage et les expériences afin de présenter la progression de l'acquisition des compétences depuis le BUT 1. Voici mon portfolio de compétence personnel.
 
-##Objectifs 🎯
+Objectifs 🎯
 Menu identifiable, visible et explicite 📋
 Information en moins de 3 clics ⏱️
 Homogénéité des pages (pas de rupture visuelle) 🎨
